@@ -12,7 +12,7 @@ function tratarErroELancar(erro) {
 
 function imprimirNomeGritado(obj) {
   try {
-    console.log(obj.name.toUpperCase() + '!!!')
+    console.log(obj.name.toUpperCase() + ' !!!') // informado a propriedade "name" para que seja apresentado o erro
   } catch (e) {
     tratarErroELancar(e)
   } finally {
@@ -20,5 +20,5 @@ function imprimirNomeGritado(obj) {
   }
 }
 
-const obj = { nome: 'Roberto' }
+const obj = { nome: 'Cleverson' }
 imprimirNomeGritado(obj)
