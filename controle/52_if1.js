@@ -1,16 +1,16 @@
 function seBoaNoticia(nota) {
-  if (nota >= 7) {
-    console.log('Aprovado ' + nota)
-  }
+    if (nota >= 7) {
+        console.log('Aprovado ' + nota)
+    }
 }
 
 seBoaNoticia(8.1)
 seBoaNoticia(6.1)
 
 function seForVerdadeEuFalo(valor) {
-  if (valor) {
-    console.log('É verdade... ' + valor)
-  }
+    if (valor) {
+        console.log('É verdade... ' + valor)
+    }
 }
 
 seForVerdadeEuFalo()

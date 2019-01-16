@@ -1,8 +1,8 @@
 // Object.preventExtensions
 const produto = Object.preventExtensions({
-  nome: 'Qualquer',
-  preco: 1.99,
-  tag: 'Promoção'
+    nome: 'Qualquer',
+    preco: 1.99,
+    tag: 'Promoção'
 })
 
 console.log('Extensível:', Object.isExtensible(produto))

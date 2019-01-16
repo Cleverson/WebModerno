@@ -12,29 +12,29 @@ delete produto['marca do produto']
 console.log(produto)
 
 const carro = {
-  modelo: 'A4',
-  valor: 89000,
-  proprietario: {
-    nome: 'Cleverson',
-    idade: 44,
-    endereco: {
-      logradouro: 'Caminho do Paraiso',
-      numero: 326
-    }
-  },
-  condutores: [
-    {
-      nome: 'Junior',
-      idade: 19
+    modelo: 'A4',
+    valor: 89000,
+    proprietario: {
+        nome: 'Cleverson',
+        idade: 44,
+        endereco: {
+            logradouro: 'Caminho do Paraiso',
+            numero: 326
+        }
     },
-    {
-      nome: 'Ana',
-      idade: 42
+    condutores: [
+        {
+            nome: 'Junior',
+            idade: 19
+        },
+        {
+            nome: 'Ana',
+            idade: 42
+        }
+    ],
+    calcularValorSeguro: function() {
+        // ...
     }
-  ],
-  calcularValorSeguro: function() {
-    // ...
-  }
 }
 
 carro.proprietario.endereco.numero = 1000

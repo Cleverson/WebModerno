@@ -1,27 +1,27 @@
 class Lancamento {
-  constructor(nome = 'Genérico', valor = 0) {
-    ;(this.nome = nome), (this.valor = valor)
-  }
+    constructor(nome = 'Genérico', valor = 0) {
+        ;(this.nome = nome), (this.valor = valor)
+    }
 }
 
 class CicloFinanceiro {
-  constructor(mes, ano) {
-    this.mes = mes
-    this.ano = ano
-    this.lancamentos = []
-  }
+    constructor(mes, ano) {
+        this.mes = mes
+        this.ano = ano
+        this.lancamentos = []
+    }
 
-  addLancemento(...lancamentos) {
-    lancamentos.forEach(l => this.lancamentos.push(l))
-  }
+    addLancemento(...lancamentos) {
+        lancamentos.forEach(l => this.lancamentos.push(l))
+    }
 
-  sumario() {
-    let valorConsolidade = 0
-    this.lancamentos.forEach(l => {
-      valorConsolidade += l.valor
-    })
-    return valorConsolidade
-  }
+    sumario() {
+        let valorConsolidade = 0
+        this.lancamentos.forEach(l => {
+            valorConsolidade += l.valor
+        })
+        return valorConsolidade
+    }
 }
 
 const salario = new Lancamento('Salário', 45000)

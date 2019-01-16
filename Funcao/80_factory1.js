@@ -1,9 +1,9 @@
 // Factory Simples
 function CriarPessoa() {
-  return {
-    nome: 'Cleverson',
-    sobreNome: 'Dias'
-  }
+    return {
+        nome: 'Cleverson',
+        sobreNome: 'Dias'
+    }
 }
 
 console.log(CriarPessoa())

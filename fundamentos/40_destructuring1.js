@@ -1,12 +1,12 @@
 // Novo recurso do ES2015
 
 const pessoa = {
-  nome: 'Cleverson',
-  idade: 44,
-  endereco: {
-    logradouro: 'Caminho do Paraiso',
-    numero: 326
-  }
+    nome: 'Cleverson',
+    idade: 44,
+    endereco: {
+        logradouro: 'Caminho do Paraiso',
+        numero: 326
+    }
 }
 
 const { nome, idade } = pessoa
@@ -19,11 +19,11 @@ const { sobrenome, bemHumorado = true } = pessoa
 console.log(sobrenome, bemHumorado)
 
 const {
-  endereco: { logradouro, numero }
+    endereco: { logradouro, numero }
 } = pessoa
 console.log(logradouro, numero)
 
 const {
-  conta: { ag, num }
+    conta: { ag, num }
 } = pessoa
 console.log(ag, num)

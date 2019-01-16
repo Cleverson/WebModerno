@@ -11,6 +11,6 @@ const pessoa = {
     peso: 64
 }
 
-for(let atributo in pessoa) {
+for (let atributo in pessoa) {
     console.log(`${atributo} = ${pessoa[atributo]}`)
 }

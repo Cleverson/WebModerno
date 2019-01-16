@@ -6,10 +6,10 @@ obj1.nome = 'Bola'
 console.log(obj1.nome)
 
 function Obj(nome) {
-  this.nome = nome
-  this.exec = function() {
-    console.log('Exec...')
-  }
+    this.nome = nome
+    this.exec = function() {
+        console.log('Exec...')
+    }
 }
 
 const obj2 = new Obj('Cadeira')
